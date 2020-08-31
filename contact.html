@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>contact</title>
+    <style>
+        body{
+            background-image: url('one.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container, .footer{
+            width: 50%;
+            margin: auto;
+            background-color: rgb(0,0,0,.7);
+            padding: 15px;
+            border: 1px solid #ffffff;
+        }
+
+        .container{
+          border-radius: 10px 10px 0px 0px;
+        }
+        .footer{
+          color: #ffffff;
+          margin-top: 5px;
+          border-radius: 0px 0px 10px 10px;
+        }
+
+        #header{
+            color: red;
+            text-align: center;
+            font-family: fantasy;
+        }
+
+        a{
+            float: right;
+            text-decoration: none;
+            margin-right: 40px;
+            margin-bottom: 10px;
+            padding: 5px 10px 5px 10px;
+            background-color: yellowgreen;
+            color: indigo;
+            border-radius: 10px 1px;
+            border: 1px dashed indigo;
+        }
+
+        a:hover{
+            color: indigo;
+            background-color: indigo;
+            border-radius: 1px 10px;
+            border: 1px dashed white;
+            color: white;
+            position: relative;
+        }
+
+        h1{
+            text-align: center;
+            color: indigo;
+            font-size: 35px;
+        }
+
+        form{
+            width: 80%;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        input, textarea{
+            padding: 10px 5px;
+            margin-bottom: 8px;
+            width: 100%;
+            background-color: rgb(0,0,0,.1);
+            border: 1px solid white;
+        }
+
+        .submit{
+            width: 25%;
+            background-color: rgb(0,0,0,.1);
+            color: white;
+            border: 1px solid #ffffff;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h1 style="color: white;">CONTACT US</h1>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+
+        <br><br>
+        <hr><br>
+  
+        <!-- form example -->
+        <form class="" action="" method="">
+          <input style="border-radius: 5px 5px 0px 0px;" class="name" type="text" name="name" placeholder="Enter user name"> <br>
+          <input class="email" type="email" name="email" placeholder="Enter user email"> <br>
+          <input class="tel" type="tel" name="telephone" placeholder="Enter user Telephone"> <br>
+          <textarea style="color: white; border-radius: 0px 0px 5px 0px;" name="" id="" cols="30" rows="10" placeholder="Write something about yourself"></textarea><br>
+          <input style="border-radius: 0px 0px 5px 5px;" class="submit" type="submit" value="Submit">
+        </form>
+        <br><br>
+
+        <hr>
+        
+        <!-- Maps -->
+        <div style="width: 80%; margin:auto;" class="mag">
+            <h1 style="color: white; text-align: left;">Dhaka City Maps</h1>
+            <img style="width: 100%;" src="img/dhaka-map.jpg" alt="">
+        </div>
+      </div>
+      <!-- End Maps -->
+
+      <!-- Footer -->
+      <div class="footer">
+        <p style="text-align: center;"><strong>Learning and Earning Development Project</strong></p>
+       <p style="text-align: center;"> <strong>Copyright &copy; Jobayer 2020</strong></p>
+      </div>
+      <!-- End Footer -->
+
+  </body>
+</html>
